@@ -125,6 +125,17 @@
     &::placeholder {
       text-align: center;
     }
+
+    &:-webkit-autofill {
+      background-color: transparent !important;
+      -webkit-text-fill-color: $white-accent;
+      transition: background-color 5000s ease 0s;
+    }
+
+    &:-moz-autofill {
+      background-color: transparent !important;
+      color: $white-accent !important;
+    }
   }
 
   &__extra {
