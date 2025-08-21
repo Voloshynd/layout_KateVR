@@ -848,6 +848,7 @@
           class="get-in-touch__form"
           action="POST"
           id="contactForm"
+          onsubmit="this.reset(); return false;"
         >
           <div class="get-in-touch__group">
             <input
@@ -876,7 +877,7 @@
               class="get-in-touch__input"
               name="phone"
               type="tel"
-              pattern="[0-9]{10,15}"
+              pattern="^\+[0-9]{10,15}$"
               required
             />
             <label class="get-in-touch__label" for="phone">Phone*</label>
