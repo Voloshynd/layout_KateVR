@@ -76,14 +76,14 @@
     color: $text-color;
     pointer-events: none;
     transition: all 0.3s ease;
-    transform: translateY(-80%);
+    transform: translateY(-90%);
 
     &--card-number {
       transform: translateY(-80%);
     }
 
     &--card-owner {
-      transform: translateY(-50%);
+      transform: translateY(-70%);
     }
   }
 

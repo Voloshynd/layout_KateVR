@@ -237,7 +237,7 @@
 
     &:focus + .purchase__label {
       top: 0;
-      transform: translateY(-90%);
+      transform: translateY(-100%);
       color: $constant-color;
     }
   }
@@ -251,7 +251,7 @@
     color: $white-accent;
     font-family: $text-style;
     box-sizing: border-box;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
     color: $text-color;
     pointer-events: none;
     transition: all 0.3s ease;
